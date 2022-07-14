@@ -95,7 +95,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-CORS_ALLOWED_ORIGINS = ['https://ecommerce-live-demo.herokuapp.com','http://ecommerce-live-demo.herokuapp.com','ecommerce-live-demo.herokuapp.com','https://salty-shelf-41747.herokuapp.com','http://salty-shelf-41747.herokuapp.com','http://127.0.0.1:8000','https://oneplace-full.herokuapp.com' ]
+CORS_ALLOWED_ORIGINS = ['https://ecommerce-live-demo.herokuapp.com','http://ecommerce-live-demo.herokuapp.com','https://salty-shelf-41747.herokuapp.com','http://salty-shelf-41747.herokuapp.com','http://127.0.0.1:8000','https://oneplace-full.herokuapp.com' ]
 
 ROOT_URLCONF = 'backend.urls'
 
