@@ -29,6 +29,7 @@ import { fadeIn, bounceInUp, fadeInRight, fadeInLeft } from "react-animations";
 import Radium, { StyleRoot } from "radium";
 import PriceFilter from "../components/PriceFilter";
 import RateFilter from "../components/RateFilter";
+import ProductCarousel from "../components/ProductCarousel";
 import MostOrdered from "../components/MostOrdered";
 
 function HomeScreen() {
@@ -89,7 +90,7 @@ function HomeScreen() {
               </h1>
               <Col md={12}>
                 <Container fluid>
-                 
+                 <ProductCarousel />
                 </Container>
                 <br />
               </Col>
