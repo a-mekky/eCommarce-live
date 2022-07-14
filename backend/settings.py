@@ -27,7 +27,7 @@ SECRET_KEY = 'django-insecure-_%#3i7tr(+llp4x=iffia9#)u8&l^5t$2a1yfhwdcr35s0-q5a
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['https://salty-shelf-41747.herokuapp.com','http://salty-shelf-41747.herokuapp.com','127.0.0.1','enigmatic-mesa-92913.herokuapp.com','oneplace-full.herokuapp.com']
+ALLOWED_HOSTS = ['https://ecommerce-live-demo.herokuapp.com','http://ecommerce-live-demo.herokuapp.com','ecommerce-live-demo.herokuapp.com','https://salty-shelf-41747.herokuapp.com','http://salty-shelf-41747.herokuapp.com','127.0.0.1','enigmatic-mesa-92913.herokuapp.com','oneplace-full.herokuapp.com']
 
 
 # Application definition
@@ -95,7 +95,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-CORS_ALLOWED_ORIGINS = ['https://salty-shelf-41747.herokuapp.com','http://salty-shelf-41747.herokuapp.com','http://127.0.0.1:8000','https://oneplace-full.herokuapp.com' ]
+CORS_ALLOWED_ORIGINS = ['https://ecommerce-live-demo.herokuapp.com','http://ecommerce-live-demo.herokuapp.com','ecommerce-live-demo.herokuapp.com','https://salty-shelf-41747.herokuapp.com','http://salty-shelf-41747.herokuapp.com','http://127.0.0.1:8000','https://oneplace-full.herokuapp.com' ]
 
 ROOT_URLCONF = 'backend.urls'
 
