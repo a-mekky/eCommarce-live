@@ -1,2 +1,3 @@
  [build] 
- command = "python manage.py collectstatic --noinput" publish = "staticfiles"
+ command = "python manage.py collectstatic --noinput"
+ publish = "/staticfiles"
